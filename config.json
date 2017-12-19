@@ -1,0 +1,10 @@
+{
+    "tokenUrl": "http://172.16.0.128:8280/token",
+    "servicesBaseURL": "https://172.16.0.128:8243/",
+    "consumerKey": "FqB1DGtw_bwfQu6x3fq0CQ2QiJga",
+    "consumerSecret": "m1fASO2uQwGeDNgZMYYsU3P_BzUa",
+    "services": {
+      "buscaQTH":"MovilesInternet/1.0.0/buscaQTH"
+      }
+
+}

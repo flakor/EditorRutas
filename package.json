@@ -1,0 +1,51 @@
+{
+  "name": "editorrutas",
+  "version": "1.0.0",
+  "description": "Edita rutas grafimar arrastrando los vertices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.dgtm.cl/C4ISR/editorRutas.git"
+  },
+  "author": "Pablo Ortiz 2017",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "apicache": "^0.3.4",
+    "babel-loader": "^8.0.0-beta.0",
+    "body-parser": "~1.0.1",
+    "cool-ascii-faces": "^1.3.4",
+    "cors": "^2.8.3",
+    "crypo": "^0.1.4",
+    "dgtm-clienteAPI": "0.0.7",
+    "ejs": "^2.5.7",
+    "express": "~4.0.0",
+    "fs": "0.0.1-security",
+    "geojson": "^0.5.0",
+    "https": "^1.0.0",
+    "json-search": "0.0.1-security",
+    "jwt-simple": "^0.5.1",
+    "method-override": "^2.3.9",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^4.11.1",
+    "morgan": "~1.0.0",
+    "path": "^0.12.7",
+    "payload-validator": "^1.0.4",
+    "progress": "^2.0.0",
+    "rainbow-console": "0.0.2",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^2.7.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}

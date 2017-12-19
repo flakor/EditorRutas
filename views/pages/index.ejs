@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.3.2/css/ol.css" type="text/css">
+        <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+       <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+       <script src="https://openlayers.org/en/v4.3.2/build/ol.js"></script>
+       <script src="https://npmcdn.com/@turf/turf/turf.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js"></script>
+       <script type="text/javascript" src="/js/main.js"></script>
+
+    <title>Edicion de Rutas</title>
+
+  </head>
+  <body>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog">
+      <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+            <h4 class="modal-title">Editor de Rutas</h4>
+          </div>
+          <div class="modal-body">
+            <div class="pull-right" id="myposition"></div>
+            <div class="clearfix"></div>
+            <br><br>
+            <div id="map"></div>
+            <div id="scale-line" class="scale-line"></div>
+            <div id="popup" class="ol-popup">
+              <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+              <div id="popup-content">
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+
+            <button class="btn btn-warning btn-lg" id="delete">Cancelar</button>
+            <button class="btn btn-success btn-lg" id="save">Guardar</button>
+            <!-- <button class="btn btn-primary btn-lg" data-dismiss="modal" id="close">Cerrar</button> -->
+            <button class="btn btn-primary btn-lg" id="close">Cerrar</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
